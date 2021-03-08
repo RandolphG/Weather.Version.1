@@ -1,0 +1,40 @@
+// sunset and sunrise
+.sun-time {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+  font-family: "Century Gothic";
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 16px;
+
+  .sunrise {
+    display: flex;
+    flex-direction: row;
+
+    .icon-sunrise {
+      height: 40px;
+    }
+
+    .time {
+      margin-left: 8px;
+    }
+  }
+
+  .sunset {
+    display: flex;
+    flex-direction: row;
+
+    .icon-sunset {
+      height: 40px;
+    }
+
+    .sunset-time {
+      margin-left: 8px;
+    }
+  }
+}

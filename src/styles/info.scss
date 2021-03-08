@@ -1,0 +1,41 @@
+//-- city date and icons
+.top {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: space-between;
+  height: 25%;
+  width: 80%;
+  margin-bottom: 16px;
+  color: #333333;
+
+  .icon {
+    height: 6rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: "Fira Code Medium";
+    border-left: #333333 6px solid;
+    padding-left: 20px;
+
+    .city {
+      margin-bottom: 4px;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .date {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .description {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  }
+}

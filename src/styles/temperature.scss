@@ -1,0 +1,38 @@
+// current temperature
+.tmp {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  .indicator {
+    height:50px
+  }
+
+  .current {
+    display: flex;
+    letter-spacing: -10pt;
+    font-size: 6.5rem;
+    font-family: "Fira Code Medium";
+    color: #333333;
+    text-shadow: 1px 1px 1px #000, 2px 3px 5px #333;
+  }
+
+  // average temperature
+  .avg {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+    .text {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333333;
+    }
+
+    .degrees {
+      font-size: 1.3rem;
+    }
+  }
+}

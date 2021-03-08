@@ -1,0 +1,15 @@
+// -- dialog button and modal
+.dialog {
+  margin-top: 16px;
+
+  .btn-open {
+    font-family: "Fira Code";
+    font-size: 1rem;
+    color: white;
+  }
+
+  &:hover {
+    color: aqua;
+    font-size: 1rem;
+  }
+}

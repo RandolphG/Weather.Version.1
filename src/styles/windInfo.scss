@@ -1,0 +1,38 @@
+// wind speed and direction
+.wind {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #333333;
+  font-family: "Century Gothic";
+  font-size: 1.75rem;
+  font-weight: 600;
+
+  .text {
+    display: flex;
+    flex-direction: row;
+
+    .icon-wind {
+      height: 40px;
+    }
+
+    .direction {
+      margin-left: 8px;
+    }
+  }
+
+  .speed-text {
+    display: flex;
+    flex-direction: row;
+
+    .icon-speed {
+      height: 40px;
+    }
+
+    .wind-spd {
+      margin-left: 8px;
+    }
+  }
+}
